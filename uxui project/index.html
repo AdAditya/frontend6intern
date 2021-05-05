@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+  <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+  <link rel="stylesheet" type="text/css" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <script src="js/jquery.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-main">
+      <div class="container">
+
+        <a class="navbar-brand" href="index.html">JOBS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            
+            <li class="nav-item">
+              <a class="nav-link" href="#Category">Category</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Contantus">Contact us</a>
+            </li>
+
+          </ul>
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item mr-2">
+              <a class="btn btn-primary" href="#login" data-toggle="modal">Login</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="btn btn-primary dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Register
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#register-jobseeker" data-toggle="modal">Job Seeker</a>
+                <a class="dropdown-item" href="#register-company" data-toggle="modal">Job Company</a>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+  </header>
+
+  <!-- slider section -->
+  <div id="carouselExampleIndicators" class="carousel slide position-relative" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="image/banner2.jpg" alt="First slide">
+      </div>
+      <div class="carousel-item">
+        <img class="d-block w-100" src="image/banner2.jpg" alt="Second slide" >
+      </div>
+    </div>
+    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+
+    <div class="search-section">
+      <div class="containter">
+        <div class="search-box w-100">
+          <form>
+            <div class="row">
+              <div class="col-7">
+                <input type="search" name="search" class="form-control" placeholder="Enter Keywords">
+              </div>
+              <div class="col-5">
+                <button class="btn search-btn btn-success">Search Jobs</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+ 
+  <!-- ------------------------------------------------------------- -->
+  <section>
+    <div class="containter">
+      <h2 class="mt-4 mb-4"><center> Categories </center></h2>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="category-tab">
+            <ul class="nav nav-pills nav-justified" id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Category by Skill</a>
+
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Category by Location</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Category by Company</a>
+              </li>
+               
+            </ul>
+
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <ul class="listing">
+                  <li><a href="#!">
+                  IT Jobs</a>
+                </li>
+                <li><a href="#!">Marketing Jobs</a></li>
+                <li><a href="#!">Lawer</a></li>
+                <li><a href="#!">
+                Doctor</a>
+              </li>
+              <li><a href="#!">Engineer</a></li>
+              <li><a href="#!">Chef</a></li>
+              <li><a href="#!">Pilot</a></li>
+              <li><a href="#!">Driver</a></li>
+            </ul>
+          </div>
+          <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+            <ul class="listing">
+              <li><a href="#!">
+              Kathmandu</a>
+            </li>
+            <li><a href="#!">Pokhara</a></li>
+            <li><a href="#!">Biratnagar</a></li>
+            <li><a href="#!">Khotang</a></li>
+            <li><a href="#!">Jhapa</a></li>
+            <li><a href="#!">Lalitpur</a></li>
+            <li><a href="#!">Bhaktapur</a></li>
+          </ul>
+        </div>
+        <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+          <ul class="listing">
+            <li><a href="#!">Subisu</a></li>
+            <li><a href="#!">Worldlink</a></li>
+            <li><a href="#!">CG</a></li>
+            <li><a href="#!">LG</a></li>
+            <li><a href="#!">Apple</a></li>
+            <li><a href="#!">Google</a></li>
+            <li><a href="#!">Facebook</a></li>
+            <li><a href="#!">ABC Company</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </div>
+</div>
+
+</div>
+</section>
+<!-- -------------------------------------------------------------------------------- -->
+<div class="container" id="Category">
+<h2 class="mt-4 mb-4" ><center>Popular Searching</center></h2>
+
+  <div class="row">
+    <div class="col-md-4 mb-4">
+      <div class="sevice-box">
+        <img src ="image/it.jpg" class="w-100" height="100">
+        <a href="IT_listing.html"><h2>IT</h2></a>
+
+      </div>
+    </div>
+    <div class="col-md-4 mb-4">
+      <div class="sevice-box">
+        <img src ="image/doc.jpg" class="w-100" height="100">
+        <a href="Doctor_listing.html"><h2>Doctor</h2></a>
+        <p><p>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="sevice-box">
+          <img src ="image/eng.jpg" class="w-100" height="100">
+          <a href="Engineer_listing.html"><h2>Engineer</h2></a>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="sevice-box">
+          <img src ="image/law.jpg" class="w-100" height="100">
+          <a href="Law_listing.html"><h2>Law</h2></a>
+          <p><p>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <div class="sevice-box">
+            <img src ="image/teacher.jpg" class="w-100" height="100">
+            <a href="Teacher_listing.html"><h2>Teacher</h2></a>
+            <p><p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="sevice-box">
+              <img src ="image/bank.jpg" class="w-100" height="100">
+              <a href="Bank_listing.html"><h2>Bank</h2></a>
+              <p><p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <!-- ---------------------------------------------------------------------- -->
+      
+      <section class="site-section " id="next-section">
+        <div class="container" id="Contactus">
+          <h2 class="pt-4 pb-4" ><center>Contact Us</center></h2>
+          <div class="row">
+            <div class="col-lg-6 mb-5 mb-lg-0">
+              <form action="#" class="">
+
+                <div class="row form-group">
+                  <div class="col-md-6 mb-3 mb-md-0">
+                    <label class="text-black" for="fname">First Name</label>
+                    <input type="text" id="fname" class="form-control">
+                  </div>
+                  <div class="col-md-6">
+                    <label class="text-black" for="lname">Last Name</label>
+                    <input type="text" id="lname" class="form-control">
+                  </div>
+                </div>
+
+                <div class="row form-group">
+
+                  <div class="col-md-12">
+                    <label class="text-black" for="email">Email</label> 
+                    <input type="email" id="email" class="form-control">
+                  </div>
+                </div>
+
+                <div class="row form-group">
+
+                  <div class="col-md-12">
+                    <label class="text-black" for="subject">Subject</label> 
+                    <input type="subject" id="subject" class="form-control">
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <label class="text-black" for="message">Message</label> 
+                    <textarea name="message" id="message" cols="30" rows="7" class="form-control" placeholder="Write your notes or questions here..."></textarea>
+                  </div>
+                </div>
+
+                <div class="row form-group">
+                  <div class="col-md-12">
+                    <input type="submit" value="Send Message" class="btn btn-primary btn-md text-white">
+                  </div>
+                </div>
+
+
+              </form>
+            </div>
+
+            <div class="col-lg-5 ml-auto">
+              <div class="p-4 mb-3 bg-white">
+                <p class="mb-0 font-weight-bold">Address</p>
+                <p class="mb-4">Texas College of Management and IT</p>
+
+                <p class="mb-0 font-weight-bold">Phone</p>
+                <p class="mb-4"><a href="#">+1 232 3235 324</a></p>
+
+                <p class="mb-0 font-weight-bold">Email Address</p>
+                <p class="mb-0"><a href="#">youremail@domain.com</a></p>
+
+              </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.1406997257154!2d85.34122701453846!3d27.712941781853985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb19711fc67af3%3A0x4ec22ef7b705ac5!2sTexas%20College%20of%20Management%20%26%20IT!5e0!3m2!1sen!2snp!4v1582876782553!5m2!1sen!2snp" class="w-100" height="250" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+          </section>
+
+
+          <!-- -------------------------------------------------------------------------Footer -->
+          <footer class="page-footer font-small blue pt-4 footer-bg">
+
+            <!-- Footer Links -->
+            <div class="container-fluid text-center text-md-left">
+
+              <!-- Grid row -->
+              <div class="row">
+
+                <!-- Grid column -->
+                <div class="col-md-6 mt-md-0 mt-3">
+
+                  <!-- Content -->
+                  <h5 class="text-uppercase">JOBS</h5>
+                  <p>Here you can search and post a job.</p>
+
+                </div>
+                <!-- Grid column -->
+
+                <hr class="clearfix w-100 d-md-none pb-3">
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                  <!-- Links -->
+                  <h5 class="text-uppercase">Company</h5>
+
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="#!">Subisu</a>
+                    </li>
+                    <li>
+                      <a href="#!">Worldlink</a>
+                    </li>
+                    <li>
+                      <a href="#!">CG</a>
+                    </li>
+                    <li>
+                      <a href="#!">Apple</a>
+                    </li>
+                  </ul>
+
+                </div>
+                <!-- Grid column -->
+
+                <!-- Grid column -->
+                <div class="col-md-3 mb-md-0 mb-3">
+
+                  <!-- Links -->
+                  <h5 class="text-uppercase">Search trending</h5>
+
+                  <ul class="list-unstyled">
+                    <li><a href="#">Web Design</a></li>
+                    <li><a href="#">Graphic Design</a></li>
+                    <li><a href="#">Web Developers</a></li>
+                    <li><a href="#">Python</a></li>
+                    <li><a href="#">HTML5</a></li>
+                    <li><a href="#">CSS3</a></li>
+                  </ul>
+
+                </div>
+                <!-- Grid column -->
+
+              </div>
+              <!-- Grid row -->
+
+            </div>
+            <!-- Footer Links -->
+
+            <!-- Copyright -->
+
+            <!-- Copyright -->
+
+          </footer>
+          <!-- Footer -->
+
+
+
+
+
+           <!-- Modal -->
+  <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <form>
+           <div class="form-group">
+            <label>Username:</label>
+            <input type="text" name="username" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Password:</label>
+            <input type="password" name="password" class="form-control">
+          </div>
+          <button class="btn btn-primary">Sign in</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- -------------------------------------------------------------------------------- -->
+<div class="modal fade" id="register-company" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Register-company</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+         <div class="form-group">
+          <label>Company Name:</label>
+          <input type="text" name="Company Name" class="form-control">
+        </div>
+        <div class="form-group">
+          <label>Company Phone Number:</label>
+          <input type="number" name="Company Phone Number" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>Company Email Address:</label>
+          <input type="email" name="Company Email Address" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>Company Location:</label>
+          <input type="text" name="Company Location" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>Zip Code:</label>
+          <input type="number" name="Zip Code" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>Company Type:</label>
+          <input type="text" name="Company Type" class="form-control">
+
+        </div>
+
+        <div class="form-group">
+          <label>Password:</label>
+          <input type="password" name="Password" class="form-control">
+        </div>
+
+        <div class="form-group">
+          <label>Retype Password:</label>
+          <input type="password" name="Retype Password" class="form-control">
+        </div>
+
+        <button class="btn">Sign Up</button>
+        <h4>For login please click here <a href="login.html">Login</a>
+         <button class="btn btn-primary">Sign in</button>
+       </form>
+     </div>
+   </div>
+ </div>
+</div>
+
+<!-- ------------------------------------------------------------------------------------------------ -->
+<div class="modal fade" id="register-jobseeker" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Register-jobseeker</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="form-group">
+            <label>First name:</label>
+            <input type="text" name="First name" class="form-control">
+          </div>
+          <div class="form-group">
+            <label>Last name:</label>
+            <input type="text" name="Last name" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <label>Password:</label>
+            <input type="password" name="password" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <label>Email:</label>
+            <input type="email" name="Email" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <label>Phone Number:</label>
+            <input type="number" name="Phone Number" class="form-control">
+          </div>
+
+          <div class="form-group">
+            <label>Skills:</label>
+            <input type="text" name="Skills" class="form-control">
+          </div>
+
+          <button class="btn">Sign Up</button>
+          <h4>For login please click here <a href="#login">Login</a></h4>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+        </body>
+        </html>
